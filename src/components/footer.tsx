@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react"
+import { Facebook, Twitter, Instagram, Linkedin, Github, Heart } from "lucide-react"
 import Link from "next/link"
 
 const socialLinks = [
@@ -11,6 +11,7 @@ const socialLinks = [
 
 export function Footer() {
   return (
+    
     <footer className="bg-gray-100 py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center">
@@ -28,7 +29,20 @@ export function Footer() {
               </Link>
             ))}
           </div>
-          <p className="text-gray-600 text-sm">© {new Date().getFullYear()} Sign. All rights reserved.</p>
+          <p className="text-gray-600 text-sm mb-4">© {new Date().getFullYear()} Sign. All rights reserved.</p>
+          <div className="flex items-center text-gray-600 text-sm">
+            <span>Created with</span>
+            <Heart className="h-4 w-4 mx-1 text-red-500 fill-current" />
+            <span>by</span>
+            <a
+              href="https://github.com/Jaypeee0x"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-1 font-semibold text-primary hover:underline"
+            >
+              Jaypeee0x.Sign👀🧡
+            </a>
+          </div>
         </div>
       </div>
     </footer>
