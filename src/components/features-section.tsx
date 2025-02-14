@@ -1,46 +1,48 @@
-import { Fingerprint, Shield, Zap, Clock, CheckCircle, Lock } from "lucide-react"
+import { Users, MessageSquare, Share2, Trophy, Heart, Globe } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 const features = [
   {
-    title: "Lorem ipsum" ,
-    description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
-    icon: Shield,
+    title: "Global Connections",
+    description: "Join thousands of users worldwide sharing knowledge and experiences in digital document signing",
+    icon: Globe,
   },
   {
-    title: "Lorem ipsum",
-    description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    icon: Zap,
+    title: "Discussion Forums",
+    description: "Join a diverse community of people who share ideas, experiences, and passions",
+    icon: MessageSquare,
   },
   {
-    title: "Lorem ipsum",
-    description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
-    icon: Fingerprint,
+    title: "Collaboration & Friendship",
+    description: "Create or join specialized groups based on your industry, role, or interests",
+    icon: Users,
   },
   {
-    title: "Lorem ipsum",
-    description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
-    icon: Clock,
+    title: "Recognition & Appreciation",
+    description: "Exchange knowledge, tips, and resources to help each other learn and grow",
+    icon: Share2,
   },
   {
-    title: "Lorem ipsum",
-    description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    icon: CheckCircle,
+    title: "Recognition Program",
+    description: "Celebrate contributions, earn recognition, and be part of something bigger",
+    icon: Trophy,
   },
   {
-    title: "Lorem ipsum",
-    description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
-    icon: Lock,
+    title: " Community-Driven Support",
+    description: "Get advice, share insights, and be there for one another.",
+    icon: Heart,
   },
 ]
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="py-20 bg-white">
+    <section id="community" className="py-20 bg-white">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Powerful Signee</h2>
-          <p className="section-description">Everything you need is SIGN</p>
+          <h2 className="section-title">Join Our Community</h2>
+          <p className="section-description">
+            Connect, collaborate, and grow with thousands of professionals in our global signing community
+          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (

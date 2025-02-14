@@ -9,7 +9,6 @@ import { FAQSection } from "@/components/faq-page"
 export default function Home() {
   return (
     <div className="relative min-h-screen">
-      <SiteHeader />
       <main>
         <AnimatedSection>
           <HeroSection />
@@ -21,10 +20,10 @@ export default function Home() {
           <AboutSection />
         </AnimatedSection>
         <AnimatedSection>
-          <TeamSection />
+          <FAQSection />
         </AnimatedSection>
         <AnimatedSection>
-          <FAQSection />
+          <TeamSection />
         </AnimatedSection>
       </main>
     </div>

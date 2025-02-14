@@ -29,11 +29,11 @@ const teamMembers = [
 
 export function TeamSection() {
   return (
-    <section id="team" className="py-20 bg-[#fdfdfd]">
+    <section id="team" className="py-20 bg-[#FFF5F0]">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Meet Our Mods</h2>
-          <p className="section-description">The talented developers and designers behind Sign</p>
+          <h2 className="section-title">Meet the Leaders of Sign 🚀</h2>
+          <p className="section-description">The dedicated minds behind the Orange Dynasty! 🧡</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
