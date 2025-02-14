@@ -16,7 +16,7 @@ const teamMembers = [
   {
     name: "Zoe Chan",
     role: "The Cutest MOD of Sign",
-    image: "/images/zoe.jpg?height=400&width=400",
+    image: "/images/cutezoe.jpg?height=400&width=400",
     description: "Spreading positivity and good vibes, Zoe brings a fun and welcoming energy to the community, making Sign feel like home.",
   },
   {
