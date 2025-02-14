@@ -18,7 +18,7 @@ const features = [
     icon: Users,
   },
   {
-    title: "Recognition & Appreciation",
+    title: "Resource Sharing",
     description: "Exchange knowledge, tips, and resources to help each other learn and grow",
     icon: Share2,
   },
