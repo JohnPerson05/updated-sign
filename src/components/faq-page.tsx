@@ -2,31 +2,63 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "What are Sign NFTs? ❤️?",
-    answer:
-      "  If you cannot get an SBT or are too busy with any other convictions, NFTs are the other way to get you closer to Sign",
-    answer2: " Just as valuable as an SBT and focused on signees who aren't available to get the SBTs"  
+    question: "WTF is Sign?",
+    answer: [
+      "Sign is a tech company that's backed by the same VC that invested in Elon Musk's Space X",
+      "Sign built 3 Main Core Products (M . F . I = Money 💲 Freedom 🙌 Integrity ✊"
+    ]
      
   },
   {
-    question: "Lorem Ipsum?",
-    answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    question: "What is an SBT and Sign BoundToken?",
+    answer: [
+      "SBT: These are non-transferable NFTs bound to a person's wallet and serve as your attendance to a certain event",
+      "Sign BoundToken: Like an SBT but, an SBT on how you contribute to the Orange Dynasty 🫵🧡🦺"
+    ]
   },
   {
-    question: "Lorem Ipsum?",
-    answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    question: "How to Get an SBT?",
+    answer: [
+      " Be active: on X, Telegram, and Discord so Sign Intern and Zoe will see you 🧡👀 ",
+      "Become the Best Version of yourselves: No to AI Contents & No to Fake Story Telling, just become you! 🫵🧡👀"
+    ]
   },
   {
-    question: "CLorem Ipsum?",
-    answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    question: "What are the Different types of SBTs? ",
+    answer: [
+      "Certified Serious Builder: Rewarded by the Sign Team and recognized the potential of Sign before it Mainstream. 🦺",
+      "Content Creator: Demonstrate your creativity and talent by creating engaging content related to the Sign. 🎥",
+      "Orange in the Veins: Consistent participation in community events related to Sign. 🐉",
+      "Support Warrior: Consistent on engaging with real support on every content related to Sign. 🪧"
+    ]
   },
   {
-    question: "Lorem Ipsum?",
-    answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    question: "What are Sign NFTs? ❤️",
+    answer: [
+      " If you cannot get an SBT or are too busy with any other convictions, NFTs are the other way to get you closer to Sign.",
+      " Just as valuable as an SBT and focused on signees who aren't available to get the SBTs.",
+    ]
+  },
+  {
+    question: " If I get followed by Sign Intern Does that make me qualified for an SBT?",
+    answer: [
+      " It depends if you were followed by Sign in the early days and didn't post anything related to Sign, then NO ❌",
+      " If you are followed by Sign and consistently posting any content related to sign, then YES ✔️.",
+    ]
+  },
+  {
+    question: "Is to be followed back by Sign Intern the Goal to receive an SBT?",
+    answer: [
+      " No, but maybe yes, but the real answer is to become the best version of yourself. 🫵🧡",
+      " Consistently posting or replying or being active on sign community events is the real goal to receive an SBT. 🫡🧡",
+    ]
+  },
+  {
+    question: "What are Sign NFTs? ❤️",
+    answer: [
+      " If you cannot get an SBT or are too busy with any other convictions, NFTs are the other way to get you closer to Sign.",
+      " Just as valuable as an SBT and focused on signees who aren't available to get the SBTs.",
+    ]
   },
 ]
 
